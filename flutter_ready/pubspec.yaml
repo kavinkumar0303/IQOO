@@ -1,0 +1,25 @@
+name: learniq_sdk
+description: "Official Dart / Flutter Client SDK for LearnIQ AI Smart Education Platform."
+version: 1.0.0
+homepage: https://learniq.edu
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  dio: ^5.4.0
+  flutter_secure_storage: ^9.0.0
+  shared_preferences: ^2.2.2
+  firebase_messaging: ^14.7.10
+  flutter_local_notifications: ^17.0.0
+  connectivity_plus: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
